@@ -26,13 +26,16 @@ body {
 }
 
 /* Header styling */
+header {
+    padding-top: 100px; /* Added padding above the name */
+}
+
 header h1 {
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #f39c12;
     margin-bottom: 1rem;
-    margin-top: 30px; /* Add this line to move the name down */
     animation: fadeInDown 1s ease;
 }
 
