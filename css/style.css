@@ -14,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 /* Container Styling */
@@ -127,5 +126,42 @@ footer .social-links li a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem; /* Adjust header size */
+    }
+
+    main {
+        padding: 1.5rem; /* Reduce padding */
+    }
+
+    main p {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .intro {
+        font-size: 1.25rem; /* Adjust intro font size */
+    }
+
+    footer .footer-content p {
+        font-size: 0.85rem; /* Smaller footer text */
+    }
+
+    footer .social-links li a {
+        font-size: 1rem; /* Smaller social link text */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem; /* Further reduce for very small screens */
+    }
+
+    main {
+        margin-bottom: 1rem; /* Reduce bottom margin */
     }
 }
