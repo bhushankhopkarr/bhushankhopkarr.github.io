@@ -154,7 +154,7 @@ export const DATA = {
     },
     {
       title: "Brain Tumor Detection",
-      href: "https://github.com/bhushankhopkarr/branegames/tree/nasha",
+      href: "https://github.com/bhushankhopkarr/branegames",
       dates: "April 2023 - March 2024",
       active: true,
       description:
