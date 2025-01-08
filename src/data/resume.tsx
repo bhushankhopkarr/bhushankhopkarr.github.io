@@ -180,7 +180,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2024",
       location: "Mumbai, IN",
       description:
-        "Developed a system for women safety keeping in mind the current scenario of the country. The system is designed to provide a safe environment for women in the any working environment.",
+        "Developed a system for women's safety keeping in mind the current scenario of the country. The system is designed to provide a safe environment for women in the any working environment.",
       image:
         "/SIH.png",
       mlh: "",
