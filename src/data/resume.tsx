@@ -89,7 +89,7 @@ export const DATA = {
   projects: [
     {
       title: "AI Desktop Assistant",
-      href: "https://github.com/bhushankhopkarr/Desktop_Assistant",
+      href: "https://github.com/bhushankhopkarr/DesktopAssistant",
       dates: "June 2023 - October 2023",
       active: true,
       description:
@@ -100,7 +100,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/bhushankhopkarr/Desktop_Assistant",
+          href: "https://github.com/bhushankhopkarr/DesktopAssistant",
           icon: <Icons.github className="size-3" />,
         },
       ],
