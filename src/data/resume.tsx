@@ -13,9 +13,6 @@ export const DATA = {
     "I am a Computer Science and Engineering student at [A.P. Shah Institute of Technology](https://www.apsit.edu.in), specializing in Artificial Intelligence & Machine Learning. I have a strong foundation in programming, machine learning, data analysis, and AI applications, and I’m passionate about using technology to solve real-world problems through hands-on projects and collaboration.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Node.js",
-    "JavaScript",
     "Python",
     "MySQL",
     "Postgres",
