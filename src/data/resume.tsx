@@ -15,7 +15,7 @@ export const DATA = {
   skills: [
     "Python",
     "MySQL",
-    "Postgres",
+    "PostgreSQL",
     "Django",
     "C",
     "Java",
