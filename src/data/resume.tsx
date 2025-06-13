@@ -67,8 +67,8 @@ export const DATA = {
       location: "On-Site",
       title: "Member",
       logoUrl: "/aiml.png", 
-      start: "July 202",
-      end: "Present",
+      start: "July 2024",
+      end: "July 2025",
       description:
         "Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.",
     },
