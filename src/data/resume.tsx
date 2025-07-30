@@ -65,28 +65,15 @@ export const DATA = {
       href: "https://github.com/APSIT-AIML-CLUB",
       badges: [],
       location: "On-Site",
-      title: "Ambassador",
+      title: "Ex Core Member / Ex Ambassador",
       logoUrl: "/aiml.png", 
-      start: "July 2025",
+      start: "July 2024",
       end: "July 2025",
       description:
         "- Mentoring members and teaching learners in Artificial Intelligence and Machine Learning. Conducting workshops and certifications to help students learn and grow.\n" +
-        "- Oversaw executive leadership, knowledge training, and public relations with media.",
-    },
-    {
-      company: "AIML Club, Thane",
-      href: "https://github.com/APSIT-AIML-CLUB",
-      badges: [],
-      location: "On-Site",
-      title: "Core Member",
-      logoUrl: "/aiml.png", 
-      start: "July 2024",
-      end: "June 2025",
-      description:
-        "- Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow."
+        "- Oversaw executive leadership, knowledge training, and public relations with media. Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.\n"
     },
   ],
-
   education: [
     {
       school: "University of Mumbai",
