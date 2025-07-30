@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Solving Problems with Engineering Solutions.",
   summary:
-    "I am a Computer Science and Engineering student at [A.P. Shah Institute of Technology](https://www.apsit.edu.in), specializing in Artificial Intelligence & Machine Learning. I have a strong foundation in programming, machine learning, data analysis, and AI applications, and I’m passionate about using technology to solve real-world problems through hands-on projects and collaboration.",
+    "I’m a final-year Computer Science & Engineering undergrad specializing in AI and ML, passionate about applying machine learning, deep learning, and various techniques to solve real-world challenges. With hands-on experience in projects, I enjoy building impactful solutions that blend innovation with practicality. Always eager to learn and collaborate, I’m looking forward to opportunities in AI research and development.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
