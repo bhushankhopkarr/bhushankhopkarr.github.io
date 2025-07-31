@@ -19,6 +19,10 @@ export const DATA = {
     "Django",
     "C",
     "Java",
+    "Bash",
+    "Flask",
+    "Streamlit",
+    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
