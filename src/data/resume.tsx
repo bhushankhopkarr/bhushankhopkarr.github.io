@@ -77,6 +77,20 @@ export const DATA = {
         "- Mentoring members and teaching learners in Artificial Intelligence and Machine Learning. Conducting workshops and certifications to help students learn and grow.\n" +
         "- Oversaw executive leadership, knowledge training, and public relations with media. Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.\n"
     },
+    {
+      company: "Microsft India",
+      href: "https://www.microsoft.com/en-in",
+      badges: [],
+      location: "On-Site",
+      title: "Machine Learning Intern",
+      logoUrl: "/microsoft.png", 
+      start: "June 2024",
+      end: "June 2024",
+      description:
+        "- Analyze petabytes of log or feature data, extract insights, and visualize trends to drive feature enhancements. \n" +
+        "- Innovate and contribute feature requirements; collaborate with product teams to design next-gen AI features.\n" +
+        "- Adapt standard ML algorithms to modern parallel and distributed environments (e.g. Hadoop, Azure, big‑data platforms).\n"
+    },
   ],
   education: [
     {
