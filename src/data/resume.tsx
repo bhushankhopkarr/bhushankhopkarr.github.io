@@ -85,7 +85,7 @@ export const DATA = {
       title: "Machine Learning Intern",
       logoUrl: "/microsoft.png", 
       start: "June 2024",
-      end: "June 2024",
+      end: "August 2024",
       description:
         "- Analyze petabytes of log or feature data, extract insights, and visualize trends to drive feature enhancements. \n" +
         "- Innovate and contribute feature requirements; collaborate with product teams to design next-gen AI features.\n" +
