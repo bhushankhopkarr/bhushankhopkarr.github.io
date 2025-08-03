@@ -78,7 +78,7 @@ export const DATA = {
         "- Oversaw executive leadership, knowledge training, and public relations with media. Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.\n"
     },
     {
-      company: "Microsft India",
+      company: "Microsoft India",
       href: "https://www.microsoft.com/en-in",
       badges: [],
       location: "On-Site",
