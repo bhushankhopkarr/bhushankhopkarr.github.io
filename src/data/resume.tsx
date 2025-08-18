@@ -111,26 +111,6 @@ export const DATA = {
         "",
     },
     {
-      title: "ProctorAI",
-      href: "https://github.com/bhushankhopkarr/AI-Exam-Proctoring-System",
-      dates: "January 2024 - April 2024",
-      active: true,
-      description:
-        "The AI-Based Exam Proctoring System ensures the integrity of online exams by using AI to monitor students, detect cheating, and maintain a fair and secure assessment process.",
-      technologies: [
-        "Python",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/bhushankhopkarr/AI-Exam-Proctoring-System",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/proctor.png", 
-      video: "",
-    },
-    {
       title: "HeartSure",
       href: "https://github.com/bhushankhopkarr/heart_failure_backend",
       dates: "December 2023 - April 2024",
