@@ -70,7 +70,7 @@ export const DATA = {
       badges: [],
       location: "On-Site",
       title: "Core Member",
-      logoUrl: "/aiml.png", 
+      logoUrl: "/aimlclub.jpeg", 
       start: "July 2024",
       end: "July 2025",
       description:
@@ -83,7 +83,7 @@ export const DATA = {
       badges: [],
       location: "On-Site",
       title: "Ambassador",
-      logoUrl: "/aimlclub.jpeg", 
+      logoUrl: "/aiml.png", 
       start: "July 2025",
       end: "July 2025",
       description:
