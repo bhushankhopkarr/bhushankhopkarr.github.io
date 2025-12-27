@@ -69,7 +69,7 @@ export const DATA = {
       href: "https://github.com/APSIT-AIML-CLUB",
       badges: [],
       location: "On-Site",
-      title: "Ex Core Member / Ex Ambassador",
+      title: "Core Member / Ambassador",
       logoUrl: "/aiml.png", 
       start: "July 2024",
       end: "July 2025",
