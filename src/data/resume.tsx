@@ -74,7 +74,7 @@ export const DATA = {
       start: "July 2024",
       end: "July 2025",
       description:
-        "- Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.\n"+
+        "- Teaching and mentoring learners in the field of AI and ML. Conducting workshops to help students learn and grow.\n" +
         "- Conducted over 5+ sessions and assisted students with accessing various program and institutional resources.\n"
     },
     {
