@@ -55,7 +55,7 @@ export const DATA = {
       },
       Email: {
         name: "Send Email",
-        url: "mailto: work.bhushankhopkar@gmail.com",
+        url: "mailto:work.bhushankhopkar@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -152,7 +152,7 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed a system that detects the tumor present inside the brain using MRI images. The system uses a Convolutional Neural Network (CNN) to classify the tumor aling with its type.",
+        "Developed a system that detects the tumor present inside the brain using MRI images. The system uses a Convolutional Neural Network (CNN) to classify the tumor along with its type.",
       technologies: [
         "Python",
         "Flask",
@@ -171,7 +171,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Smart India Hackaton",
+      title: "Smart India Hackathon",
       dates: "November 23rd - 25th, 2024",
       location: "Mumbai, IN",
       description:
