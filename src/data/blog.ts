@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import rehypePrettyCode from "rehype-pretty-code";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import rehypeStringify from "rehype-stringify";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
@@ -19,9 +20,34 @@ function getMDXFiles(dir: string) {
 }
 
 export async function markdownToHTML(markdown: string) {
+  // Allow attributes needed by rehype-pretty-code while stripping dangerous HTML
+  const sanitizeSchema = {
+    ...defaultSchema,
+    attributes: {
+      ...defaultSchema.attributes,
+      "*": [
+        ...(defaultSchema.attributes?.["*"] ?? []),
+        "data*", // allow all data-* attributes (used by rehype-pretty-code)
+      ],
+      code: [
+        ...(defaultSchema.attributes?.code ?? []),
+        "className",
+      ],
+      span: [
+        ...(defaultSchema.attributes?.span ?? []),
+        "className",
+        "style",
+      ],
+      pre: [
+        ...(defaultSchema.attributes?.pre ?? []),
+        "className",
+      ],
+    },
+  };
   const p = await unified()
     .use(remarkParse)
     .use(remarkRehype)
+    .use(() => rehypeSanitize(sanitizeSchema))
     .use(rehypePrettyCode, {
       // https://rehype-pretty.pages.dev/#usage
       theme: {
@@ -36,8 +62,19 @@ export async function markdownToHTML(markdown: string) {
   return p.toString();
 }
 
+// Validate slugs: only allow alphanumeric characters, hyphens, and underscores
+const SAFE_SLUG_RE = /^[a-zA-Z0-9_-]+$/;
+
 export async function getPost(slug: string) {
-  const filePath = path.join("content", `${slug}.mdx`);
+  if (!SAFE_SLUG_RE.test(slug)) {
+    throw new Error("Invalid slug");
+  }
+  const contentDir = path.join(process.cwd(), "content");
+  const filePath = path.join(contentDir, `${slug}.mdx`);
+  // Ensure the resolved path stays within the content directory (defense in depth)
+  if (!filePath.startsWith(contentDir + path.sep)) {
+    throw new Error("Invalid slug");
+  }
   let source = fs.readFileSync(filePath, "utf-8");
   const { content: rawContent, data: metadata } = matter(source);
   const content = await markdownToHTML(rawContent);
