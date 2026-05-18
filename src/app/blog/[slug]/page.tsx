@@ -18,15 +18,15 @@ export async function generateMetadata({
   }>;
 }): Promise<Metadata | undefined> {
   const { slug } = await params;
-  let post = await getPost(slug);
+  const post = await getPost(slug);
 
-  let {
+  const {
     title,
     publishedAt: publishedTime,
     summary: description,
     image,
   } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${encodeURIComponent(title)}`;
+  const ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${encodeURIComponent(title)}`;
 
   return {
     title,
@@ -60,7 +60,7 @@ export default async function Blog({
   }>;
 }) {
   const { slug } = await params;
-  let post = await getPost(slug);
+  const post = await getPost(slug);
 
   if (!post) {
     notFound();

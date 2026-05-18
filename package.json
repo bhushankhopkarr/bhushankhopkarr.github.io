@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --max-warnings=0"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
@@ -21,7 +21,7 @@
     "framer-motion": "^11.2.10",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.395.0",
-    "next": "16.1.7",
+    "next": "16.2.6",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
@@ -37,16 +37,13 @@
     "unified": "^11.0.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.1",
-    "@babel/preset-env": "^7.27.2",
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.2.1",
-    "postcss": "^8",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8.5.10",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
