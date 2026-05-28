@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  // Note: Custom headers are not supported with Next.js static exports (output: 'export').
+  // If you host on a platform that supports headers (e.g. Vercel, Netlify), you can re-enable these.
+  /*
   async headers() {
     return [
       {
@@ -41,6 +48,7 @@ const nextConfig = {
       },
     ];
   },
+  */
 };
 
 export default nextConfig;
