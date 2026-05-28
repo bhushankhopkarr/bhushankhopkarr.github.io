@@ -87,7 +87,7 @@ export default async function Blog({
               "@type": "Person",
               name: DATA.name,
             },
-          }),
+          }).replace(/</g, "\\u003c"),
         }}
       />
       <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
